@@ -5,3 +5,69 @@
     font-weight: 400;
     font-style: normal;
 }
+/* Shared Style */
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+/* Dark 2 */
+.text-gray{
+    color: #424242;
+}
+/* dark 3 */
+.text-light-gray{
+    color: #727272;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+/* Header Styles */
+
+/* Nav bar styles */
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.brand{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* Banner-Style */
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4em;
+    font-weight: 800px;
+}
+.banner-image{
+    width: 100%;
+}
+/* Responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
